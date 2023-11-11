@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math JS</title>
+    <script src="script.js"></script>
+</head>
+<body>
+    <form name="forma">
+        <b>Задание 1</b><br>
+        Сторона 1 <input type="text" size="8" maxlength="8" name="st1"><br>
+        Сторона 2 <input type="text" size="8" maxlength="8" name="st2"><br>
+        Сторона 3 <input type="text" size="8" maxlength="8" name="st3"><br><br>
+
+        <input type="button" value="Вычислить" onclick="areaOfTriangle(forma);">
+        <input type="reset" value="Отменить"><br>
+        Результат <input type="text" size="8" maxlength="8" name="res"> <br><br>
+
+        <form>
+           <b>Задание 2</b><br>
+            Max число <input type="text" size="8" maxlength="8" name="st1_2"><br>
+            Min число <input type="text" size="8" maxlength="8" name="st2_2"><br><br>
+
+            <input type="button" value="Вычислить число между max и min" onclick="zad2(forma);">
+            <input type="reset" value="Отменить"><br><br>
+            Результат <input type="text" size="8" maxlength="8" name="result"><p></p>
+
+            <form>
+                <b>Задание 3</b><br>
+                 x^2 <input type="text" size="8" maxlength="8" name="st1_3"><br>
+                 x <input type="text" size="8" maxlength="8" name="st2_3"><br>
+                 Cвободный член <input type="text" size="8" maxlength="8" name="st3_3"><br><br>
+     
+                 <input type="button" value="Вычислить x1" onclick="zad3(forma);"><br>
+                 <input type="button" value="Вычислить x2" onclick="zad3(forma);"><br>
+                 <input type="button" value="Вычислить x" onclick="zad3(forma);"><br>
+                 <input type="button" value="Дискриминант" onclick="zad3(forma);"><br>
+
+                 <input type="reset" value="Отменить"><br><br>
+                 
+                 Результат 1 <input type="text" size="8" maxlength="8" name="result2"><br>
+                 Результат 2 <input type="text" size="8" maxlength="8" name="result3"><br>
+                 Результат 3 <input type="text" size="8" maxlength="8" name="result4"><br>
+                 Дискриминант <input type="text" size="8" maxlength="8" name="result5">
+             </form>
+        </form>
+    </form>
+</body>
+</html>
